@@ -67,7 +67,7 @@ class Rectangle:
     def __repr__(self):
         """Return rectangle representation."""
         return "Rectangle({}, {})".format(self.__width, self.__height)
-    
+
     @classmethod
     def square(cls, size=0):
         """Return new square rectangle."""
